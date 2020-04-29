@@ -9,6 +9,10 @@ export class GlobSerService {
     return this.Data;
   }
 
+  public setData(newdata) {
+    this.Data = newdata;
+  }
+
   constructor() { }
 
 }
